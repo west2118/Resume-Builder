@@ -9,18 +9,35 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@prisma/adapter-pg": "^7.4.0",
+    "@prisma/client": "^7.4.0",
+    "@react-pdf/renderer": "^4.3.2",
+    "axios": "^1.13.5",
+    "bcryptjs": "^3.0.3",
+    "cookie": "^1.1.1",
+    "html2canvas": "^1.4.1",
+    "jsonwebtoken": "^9.0.3",
+    "jspdf": "^4.1.0",
+    "lucide-react": "^0.564.0",
     "next": "16.1.6",
+    "pg": "^8.18.0",
+    "postcss": "^8.5.6",
+    "puppeteer": "^24.37.3",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "react-toastify": "^11.0.5"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
+    "@tailwindcss/postcss": "^4.1.18",
+    "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "dotenv": "^17.3.1",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
-    "tailwindcss": "^4",
+    "prisma": "^7.4.0",
+    "tailwindcss": "^4.1.18",
     "typescript": "^5"
   }
 }
